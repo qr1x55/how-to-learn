@@ -23,7 +23,7 @@
   overflow: hidden;
 }
 
-.logo__place_header {
+.logo-place-header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -101,10 +101,13 @@
 }
 
 .two-columns__main-text {
+  margin: 0;
+  padding: 0;
   width: 80%;
 }
 
 .two-columns__span-accent {
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
@@ -160,14 +163,14 @@
   margin-top: 60px;
 }
 
-.table__cell_heading {
+.table__cell-heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
   margin: 0;
 }
 
-.table__cell_text {
+.table__cell-text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -282,14 +285,14 @@
   justify-content: space-between;
 }
 
-.footer__column_copyright {
+.footer__column-copyright {
   flex-basis: 711px;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
 }
 
-.logo__place_footer {
+.logo-place-footer {
   width: 228px;
   height: 32px;
 }
@@ -306,7 +309,7 @@
   flex-flow: column;
 }
 
-.footer__column_social {
+.footer__column-social {
   display: flex;
   flex-direction: column;
 }
