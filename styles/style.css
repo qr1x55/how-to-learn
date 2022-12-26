@@ -28,7 +28,7 @@
 	height: 32px;
 }
 
-.logo__place_header {
+.logo_place_header {
 	position: absolute;
 	top: 30px;
 	left: 64px;
@@ -75,7 +75,7 @@
 .header__square-pic {
 	height: 568px;
 	width: 568px;
-	background-size: fill;
+	background-size: contain;
 	background-color: #2f80ed;
 	position: absolute;
 	top: 64px;
@@ -242,10 +242,12 @@
 
 .section-title_theme_dark {
 	margin-top: 90px;
+	z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   margin-bottom: 80px;
+	z-index: 1;
 }
 
 .table_theme_dark {
