@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="../pages/index.css">
   </head>
   <body>
-    <div class="page">
+    <div class="root">
       <header class="header">
         <img src="./images/logo_place_header.svg" class="logo logo_place_header" alt="логотип Яндекс.Практикум">
         <h1 class="header__title">Научиться учиться</h1>
@@ -26,6 +25,68 @@
               <li class="two-columns__paragraph"> Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</li>
             </ul>
           </div>
+        </section>
+        <section class="techniques">
+          <h2 class="section-title">Техники обучения</h2>
+          <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+          <div class="cards">
+            <div class="cards__item">
+              <img src="./images/cards-attention.png" class="cards__image" alt="Фото книги">
+              <h3 class="cards__title">Два вида внимания</h3>
+              <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+            </div>
+            <div class="cards__item">
+              <img src="./images/cards-recall.png" class="cards__image" alt="Фото книги">
+              <h3 class="cards__title">Recall</h3>
+              <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+            </div>
+            <div class="cards__item">
+              <img src="./images/cards-interliving.png" class="cards__image" alt="Фото книги">
+              <h3 class="cards__title">Интерливинг</h3>
+              <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+            </div>
+            <div class="cards__item">
+              <img src="./images/cards-question.png" class="cards__image" alt="Фото книги">
+              <h3 class="cards__title">Вопросы</h3>
+              <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+            </div>
+            <div class="cards__item">
+              <img src="./images/cards-competence.png" class="cards__image" alt="Фото книги">
+              <h3 class="cards__title">Иллюзия компетентности</h3>
+              <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+            </div>
+          </div>
+        </section>
+        <section class="video">
+          <h2 class="section-title">Видео нa TED</h2>
+          <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+          <div class="video__iframes">
+            <iframe 
+              class="video__iframe"
+              width="515" 
+              height="316"
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              allowfullscreen></iframe>
+            <iframe 
+              class="video__iframe" 
+              width="515" 
+              height="316"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              allowfullscreen></iframe>
+          </div>
+        </section>
+        <section class="oakley">
+          <div class="two-columns">
+            <h2 class="two-columns__brief">История Барбары Оакли.</h2>
+            <div class="two-columns__main-text">
+              <h3 class="two-columns__paragraph"> C детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</h3>
+            </div>
+          </div>
+        </section>
+        <section class="feynman" title="Фейнман">
+          <h2 class="feynman__title">Метод Фейнмана</h2>
+          <h3 class="feynman__subtitle">Выучить и не забыть</h3>
+          <a href="#" class="feynman__link link"> Подробнее →</a>
         </section>
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
@@ -68,10 +129,18 @@
             </div>
           </div>
         </section>
-        <section class="feynman" title="Фейнман">
-          <h2 class="feynman__title">Метод Фейнмана</h2>
-          <h3 class="feynman__subtitle">Выучить и не забыть</h3>
-          <a href="#" class="feynman__link link"> Подробнее →</a>
+        <section class="khan">
+          <div class="khan__container">
+            <h3 class="khan__author">Салман Хан</h3>
+            <h2 class="khan__title">Весь мир — школа</h2>
+            <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+            <h3 class="khan__quote-author">Джордж Лукас</h3>
+            <h4 class="khan__quote-author-subline">Кинорежиссер, продюсер</h4>
+            <div class="khan__book-container">
+              <div class="khan__book-pic" title="Обложка книги"></div>
+              <a href="#" class="khan__buy-link link">Купить Книгу →</a>
+            </div>
+          </div>
         </section>
         <section class="kaufman">
           <div class="kaufman__triangle" title="Треугольник"></div>
@@ -120,12 +189,34 @@
             </div>
           </div>
         </section>
+        <section class="resources">
+          <h2 class="section-title">Полезные ресурсы</h2>
+          <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+          <div class="resources__logo-zone">
+            <a 
+              href="#" 
+              class="resources__link">
+              <img src="./images/resources-arzamas.svg" class="resources__logo" alt="логотип Arzamas"></a>
+            <a 
+              href="#" 
+              class="resources__link">
+              <img src="./images/resources-n1.svg" class="resources__logo" alt="логотип N1"></a>
+            <a 
+              href="#" 
+              class="resources__link">
+              <img src="./images/resources-strelka.svg" class="resources__logo" alt="логотип Strelka"></a>
+            <a 
+              href="#" 
+              class="resources__link">
+              <img src="./images/resources-polka.svg" class="resources__logo" alt="логотип Polka"></a>
+          </div>
+        </section>
       </main>
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
             <img src="./images/logo_place_footer.svg" class="logo logo_place_footer" alt="логотип Яндекс.Практикум">
-            <p class="footer__author">&copy; Виктор Абанькин</p>
+            <p class="footer__author">&copy; Роман Болотов</p>
           </div>
           <section class="footer__column footer__column_content_info">
             <h2 class="footer__column-heading">О Практикуме</h2>
