@@ -3,4 +3,5 @@
   margin-top: 80px;
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
 }
