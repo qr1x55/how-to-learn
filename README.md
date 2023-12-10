@@ -5,6 +5,9 @@
 Проект для Яндекс.Практикум.  
 **Тема**: Расширенные возможности HTML и CSS.  
 
+## **Github Pages:**
+https://qr1x55.github.io/how-to-learn/
+
 ## **Использовано:**
 - HTML
 - CSS
